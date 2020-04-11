@@ -1,0 +1,1309 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Microsoft YaHei";
+	font-weight: 700;
+}
+a{
+	  -webkit-tap-highlight-color:transparent;
+}
+.noscroll{
+  position: fixed;
+  width: 100%;
+}
+html,
+body {
+  position: relative;
+}
+html{
+      overflow-x: hidden;
+	    max-width: 100vw;
+}
+.page1-m{
+	margin-top:40px;
+}
+.s1-sakura-petal,.s1-sakura-petal2{
+-webkit-animation: flow 3s linear infinite;
+    animation: flow 3s linear infinite;
+}
+.page1-m .s1-sakura-petal, .page1-m .s1-sakura-petal2{
+    position: absolute;
+    z-index: 100;
+    top: 1.2rem;
+    left: 0;
+    width: 2.5rem;
+    height: 1.3rem;
+    background: url(/promote/lp211/images/s1-sakura-petal_m.png) no-repeat center;
+    background-size: contain;
+}
+.page1-m .s1-sakura-petal2{
+    position: absolute;
+    background: url(/promote/lp211/images/s1-sakura-petal_m.png) no-repeat center;
+    background-size: contain;
+    left: initial;
+    width: 2rem;
+    height: 1rem;
+    top: 0;
+    right: 10%;
+}
+
+html .page1-m .page1-m-bg,
+body .page1-m .page1-m-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("/promote/lp211/images/bg.png");
+  background-size: 100% 100%;
+  width: 7.5rem;
+  height: 4.17rem;
+}
+
+html .page1-m .page1-m-frame,
+body .page1-m .page1-m-frame {
+  position: absolute;
+  top: 0.86rem;
+  left: 0.43rem;
+  background: url("/promote/lp211/images/bg_框.png");
+  background-size: 100% 100%;
+  width: 6.66rem;
+  height: 2.48rem;
+}
+
+html .page1-m .page1-m-fall,
+body .page1-m .page1-m-fall {
+  position: absolute;
+  top: 1.09rem;
+  left: 1.67rem;
+  background: url("/promote/lp211/images/花瓣.png");
+  background-size: 100% 100%;
+  width: 1.01rem;
+  height: 0.68rem;
+}
+
+html .page1-m .page1-m-flow-l,
+body .page1-m .page1-m-flow-l {
+  position: absolute;
+  top: 0.25rem;
+  left: 0;
+  background: url("/promote/lp211/images/櫻花枝L.png");
+  background-size: 100% 100%;
+  width: 2.75rem;
+  height: 1.62rem;
+}
+
+html .page1-m .page1-m-flow-r,
+body .page1-m .page1-m-flow-r {
+  position: absolute;
+  top: 2.21rem;
+  left: 5.25rem;
+  background: url("/promote/lp211/images/櫻花枝R.png");
+  background-size: 100% 100%;
+  width: 2.25rem;
+  height: 1.71rem;
+}
+
+html .page1-m .page1-m-title,
+body .page1-m .page1-m-title {
+  position: absolute;
+  top: 1.31rem;
+  left: 2.37rem;
+  background: url("/promote/lp211/images/群組 3.png");
+  background-size: 100% 100%;
+  width: 2.71rem;
+  height: 0.42rem;
+}
+
+html .page1-m .page1-m-fate1,
+body .page1-m .page1-m-fate1 {
+  position: absolute;
+  top: 2rem;
+  left: 1.65rem;
+  background: url("/promote/lp211/images/開運.png");
+  background-size: 100% 100%;
+  width: 1.29rem;
+  height: 0.62rem;
+}
+
+html .page1-m .page1-m-2000,
+body .page1-m .page1-m-2000 {
+  position: absolute;
+  top: 1.98rem;
+  left: 3.81rem;
+  background: url("/promote/lp211/images/$2000.png");
+  background-size: 100% 100%;
+  width: 2.3rem;
+  height: 0.64rem;
+}
+
+html .page1-m .page1-m-fubag,
+body .page1-m .page1-m-fubag {
+  position: absolute;
+  top: 1.94rem;
+  left: 3.08rem;
+  background: url("/promote/lp211/images/福袋.png");
+  background-size: 100% 100%;
+  width: 0.59rem;
+  height: 0.74rem;
+}
+
+html .page2-m .page-bg-t,
+body .page2-m .page-bg-t {
+  position: absolute;
+  top: 4.87rem;
+  left: 0rem;
+  background: url("/promote/lp211/images/bg_樹.png");
+  background-size: 100% 100%;
+  width: 7.5rem;
+  height: 5.49rem;
+}
+html .page1-m .page1-m-fubag-light-1,
+body .page1-m .page1-m-fubag-light-1 {
+  position: absolute;
+  top: 2rem;
+  left: 3.06rem;
+  background: #D4D1D4;
+  background-size: 100% 100%;
+  border-radius: 50%;
+  width: 0.6rem;
+  height: 0.6rem;
+  -webkit-animation: scaleInOut 3s infinite;
+          animation: scaleInOut 3s infinite;
+}
+
+html .page1-m .page1-m-fubag-light-2,
+body .page1-m .page1-m-fubag-light-2 {
+  position: absolute;
+  top: 1.9rem;
+  left: 2.97rem;
+  background: rgba(255, 156, 255, 0.199);
+  background-size: 100% 100%;
+  border-radius: 50%;
+  width: 0.8rem;
+  height: 0.8rem;
+  -webkit-animation: scaleInOut 3s infinite;
+          animation: scaleInOut 3s infinite;
+}
+html .page1-m .page1-m-fedala,
+body .page1-m .page1-m-fedala {
+  position: absolute;
+  z-index: 99;
+  top: 1.8rem;
+  left: 1.2rem;
+  background: url("/promote/lp211/images/花瓣a.png");
+  background-size: 100% 100%;
+  width: .1rem;
+  height: .08rem;
+  -webkit-animation: falla 4s infinite linear;
+          animation: falla 4s infinite linear;
+}
+
+html .page1-m .page1-m-fedalb,
+body .page1-m .page1-m-fedalb {
+  position: absolute;
+  z-index: 99;
+  top: 1.7rem;
+  left: 1.5rem;
+  background: url("/promote/lp211/images/花瓣b.png");
+  background-size: 100% 100%;
+  width: .1rem;
+  height: .07rem;
+  -webkit-animation: falla 3s infinite linear;
+          animation: falla 3s infinite linear;
+}
+
+html .page1-m .page1-m-fedalc,
+body .page1-m .page1-m-fedalc {
+  position: absolute;
+  z-index: 99;
+  top: 1.6rem;
+  left: 1rem;
+  background: url("/promote/lp211/images/花瓣c.png");
+  background-size: 100% 100%;
+  width: .1rem;
+  height: .07rem;
+  -webkit-animation: fallb 3.5s infinite linear;
+          animation: fallb 3.5s infinite linear;
+}
+
+html .page1-m .page1-m-fedald,
+body .page1-m .page1-m-fedald {
+  position: absolute;
+  z-index: 99;
+  top: 0.8rem;
+  left: 0.3rem;
+  background: url("/promote/lp211/images/花瓣d.png");
+  background-size: 100% 100%;
+  width: .1rem;
+  height: .07rem;
+  -webkit-animation: falla 3s infinite linear;
+          animation: falla 3s infinite linear;
+}
+
+html .page1-m .page1-m-fedale,
+body .page1-m .page1-m-fedale {
+  position: absolute;
+  z-index: 99;
+  top: 1.3rem;
+  left: 0.2rem;
+  background: url("/promote/lp211/images/花瓣e.png");
+  background-size: 100% 100%;
+  width: .1rem;
+  height: .07rem;
+  -webkit-animation: falla 2.5s infinite linear;
+          animation: falla 2.5s infinite linear;
+}
+
+html .page1-m .page1-m-fedalf,
+body .page1-m .page1-m-fedalf {
+  position: absolute;
+  z-index: 99;
+  top: 1.7rem;
+  left: 1.5rem;
+  background: url("/promote/lp211/images/花瓣f.png");
+  background-size: 100% 100%;
+  width: .1rem;
+  height: .07rem;
+  -webkit-animation: falla 3s infinite linear;
+          animation: falla 3s infinite linear;
+}
+
+html .page1-m .page1-m-fedalg,
+body .page1-m .page1-m-fedalg {
+  position: absolute;
+  z-index: 99;
+  top: 1.7rem;
+  left: 0.2rem;
+  background: url("/promote/lp211/images/花瓣g.png");
+  background-size: 100% 100%;
+  width: .1rem;
+  height: .07rem;
+  -webkit-animation: falla 3s infinite linear;
+          animation: falla 3s infinite linear;
+}
+
+html .page1-m .page1-m-fedalh,
+body .page1-m .page1-m-fedalh {
+  position: absolute;
+  z-index: 99;
+  top: 1.9rem;
+  left: 0.6rem;
+  background: url("/promote/lp211/images/花瓣c.png");
+  background-size: 100% 100%;
+  width: .1rem;
+  height: .07rem;
+  -webkit-animation: falla 3s infinite linear;
+          animation: falla 3s infinite linear;
+}
+
+html .page1-m .page1-m-fedali,
+body .page1-m .page1-m-fedali {
+  position: absolute;
+  z-index: 99;
+  top: 2.5rem;
+  left: 0.7rem;
+  background: url("/promote/lp211/images/花瓣b.png");
+  background-size: 100% 100%;
+  width: .1rem;
+  height: .07rem;
+  -webkit-animation: fallb 4s infinite linear;
+          animation: fallb 4s infinite linear;
+}
+
+html .page1-m .page1-m-fedalj,
+body .page1-m .page1-m-fedalj {
+  position: absolute;
+  z-index: 99;
+  top: 1.2rem;
+  left: 0.1rem;
+  background: url("/promote/lp211/images/花瓣a.png");
+  background-size: 100% 100%;
+  width: .1rem;
+  height: .07rem;
+  -webkit-animation: falla 1s infinite linear;
+          animation: falla 1s infinite linear;
+}
+
+html .page1-m .page1-m-fedal-wrap,
+body .page1-m .page1-m-fedal-wrap {
+  position: absolute;
+  -webkit-transform: rotate(130deg);
+          transform: rotate(130deg);
+  z-index: 99;
+  top: 3.5rem;
+  right: 0rem;
+}
+
+.page2-m .modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 999;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #ffdbe2ce;
+  /* Fallback color */
+  /* Black w/ opacity */
+  /* Modal Content (image) */
+}
+
+.page2-m .modal .modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 1920px;
+}
+.page2-m .modal .btn_mainBtn0{
+  background-image: url("/promote/lp211/images/0-edit.png?v=111");
+}
+.page2-m .modal .btn_mainBtn1{
+  background-image: url("/promote/lp211/images/1-edit.png?v=111");
+}
+.page2-m .modal .btn_mainBtn2{
+  background-image: url("/promote/lp211/images/2-edit.png?v=111");
+}
+.page2-m .modal .btn_mainBtn3{
+  background-image: url("/promote/lp211/images/3-edit.png?v=111");
+}
+.page2-m .modal .btn_mainBtn4{
+  background-image: url("/promote/lp211/images/4-edit.png?v=111");
+}
+.page2-m .modal .btn_mainBtn5{
+  background-image: url("/promote/lp211/images/5-edit.png?v=111");
+}
+.page2-m .modal .btn_mainBtn0,.page2-m .modal .btn_mainBtn1,.page2-m .modal .btn_mainBtn2,.page2-m .modal .btn_mainBtn3,.page2-m .modal .btn_mainBtn4,.page2-m .modal .btn_mainBtn5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0);
+    z-index: 98;
+    width: 6.70rem;
+    height: 4.68rem;
+	background-repeat:no-repeat;
+	background-position:center center;
+    background-size: contain;
+    margin-left: -3.35rem;
+    margin-top: -2.34rem;
+}
+.page2-m .modal .close {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    width: .72rem;
+    height: .72rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background: url("/promote/lp211/images/time.png") no-repeat center;
+    background-size: contain;
+    margin-left: 1.68rem;
+    margin-top: -2.48rem;
+}
+
+.page2-m .modal .close:hover,
+.page2-m .modal .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+html .page2-m .page-t,
+body .page2-m .page-t {
+  position: absolute;
+  top: 6.07rem;
+  left: 0.83rem;
+  background: url("/promote/lp211/images/主樹.png");
+  background-size: 100% 100%;
+  width: 5.75rem;
+  height: 4.54rem;
+}
+
+html .page2-m .page2-m-title,
+body .page2-m .page2-m-title {
+  position: absolute;
+  top: 4.38rem;
+  left: 0.83rem;
+  background: url("/promote/lp211/images/主標.png");
+  background-size: 100% 100%;
+  width: 5.86rem;
+  height: 0.5rem;
+}
+
+html .page2-m .page2-m-subtitleL,
+body .page2-m .page2-m-subtitleL {
+  position: absolute;
+  top: 5.14rem;
+  left: 1.48rem;
+  background-size: 100% 100%;
+  height: 0.22rem;
+  font-size: 0.22rem;
+  font-weight: normal;
+  letter-spacing: 0.02rem;
+	font-weight:600;
+  color: #464646;
+}
+
+html .page2-m .page2-m-subtitleR,
+body .page2-m .page2-m-subtitleR {
+  position: absolute;
+  top: 5.14rem;
+  left: 4.13rem;
+  background-size: 100% 100%;
+  height: 0.22rem;
+  font-size: 0.22rem;
+  font-weight: 600;
+  letter-spacing: 0.02rem;
+  color: #464646;
+}
+
+html .page2-m .page2-m-fubg,
+body .page2-m .page2-m-fubg {
+  position: absolute;
+  top: 5.02rem;
+  left: 3.69rem;
+  background: url("/promote/lp211/images/福袋-福.png");
+  background-size: 100% 100%;
+  width: 0.36rem;
+  height: 0.47rem;
+}
+
+html .page2-m .page2-m-bird,
+body .page2-m .page2-m-bird {
+  position: absolute;
+  top: 5.55rem;
+  left: 5.79rem;
+  background: url("/promote/lp211/images/鳥.png");
+  background-size: 100% 100%;
+  width: 1.11rem;
+  height: 1.85rem;
+}
+
+html .page2-m .page2-m-touch-1,
+body .page2-m .page2-m-touch-1 {
+  position: absolute;
+  top: 7.08rem;
+  left: 1.34rem;
+  background: url("/promote/lp211/images/杏花.png");
+  background-size: 100% 100%;
+  width: 1.78rem;
+  height: 1.76rem;
+}
+
+html .page2-m .page2-m-touch-2,
+body .page2-m .page2-m-touch-2 {
+  position: absolute;
+  top: 5.94rem;
+  left: 3.02rem;
+  background: url("/promote/lp211/images/牡丹花.png");
+  background-size: 100% 100%;
+  width: 1.78rem;
+  height: 1.76rem;
+}
+
+html .page2-m .page2-m-touch-3,
+body .page2-m .page2-m-touch-3 {
+  position: absolute;
+  top: 8.06rem;
+  left: 3.1rem;
+  background: url("/promote/lp211/images/櫻花.png");
+  background-size: 100% 100%;
+  width: 1.78rem;
+  height: 1.77rem;
+}
+
+html .page2-m .page2-m-touch-4-wrap,
+body .page2-m .page2-m-touch-4-wrap {
+  position: absolute;
+  top: 7.04rem;
+  left: 4.66rem;
+  background: url("/promote/lp211/images/桃花.png");
+  background-size: 100% 100%;
+  width: 1.78rem;
+  height: 1.76rem;
+}
+html .page2-m .page2-m-touch-4,
+body .page2-m .page2-m-touch-4 {
+  position: absolute;
+  top: .30rem;
+  left: 0;
+  width: 1.3rem;
+  height: 1.3rem;
+	clip-path: circle(50%);
+}
+
+html .page3-m .page3-m-bg-green,
+body .page3-m .page3-m-bg-green {
+  position: absolute;
+  top: 11.05rem;
+  left: 0;
+  width: 7.5rem;
+  height: 4.83rem;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e6f3d8), to(#ffffff));
+  background-image: linear-gradient(360deg, #e6f3d8, #ffffff);
+}
+
+html .page3-m .page3-m-title,
+body .page3-m .page3-m-title {
+  position: absolute;
+  top: 11.23rem;
+  left: 0.76rem;
+  background: url("/promote/lp211/images/主標-2.png");
+  background-size: 100% 100%;
+  width: 5.98rem;
+  height: 0.46rem;
+}
+
+html .page3-m .page3-m-bg,
+body .page3-m .page3-m-bg {
+  position: absolute;
+  top: 11.88rem;
+  left: 0.5rem;
+  background: url("/promote/lp211/images/bg＿框talk.png");
+  background-size: 100% 100%;
+  width: 6.4rem;
+  height: 3.51rem;
+}
+
+html .page3-m .page3-m-bg-shadow,
+body .page3-m .page3-m-bg-shadow {
+  position: absolute;
+  display: block;
+  top: 12.21rem;
+  z-index: 199;
+  left: 1.50rem;
+  width: 2.0rem;
+  height: 0.33rem;
+  background: #ffffff;
+}
+
+html .page3-m .label-phone,
+body .page3-m .label-phone {
+  position: absolute;
+  top: 12.79rem;
+  left: 4.30rem;
+  background: url("/promote/lp211/images/phone.png");
+  background-size: 100% 100%;
+  width: 0.13rem;
+  height: 0.19rem;
+  z-index: 100;
+}
+
+html .page3-m .page-input-phone,
+body .page3-m .page-input-phone {
+position: absolute;
+    top: 12.68rem;
+    left: 4.09rem;
+    border-radius: 10px;
+    border: solid 2px #dd8a2a;
+    background: inherit;
+    z-index: 99;
+    width: 2.42rem;
+    height: 0.39rem;
+    font-size: .16rem;
+    padding-left: 0.47rem;
+    font-weight: normal;
+    font-stretch: normal;
+    outline: none;
+}
+
+html .page3-m .page-input-phone::-webkit-input-placeholder,
+body .page3-m .page-input-phone::-webkit-input-placeholder {
+  color: #dd8a2a;
+}
+
+html .page3-m .page-input-phone:-ms-input-placeholder,
+body .page3-m .page-input-phone:-ms-input-placeholder {
+  color: #dd8a2a;
+}
+
+html .page3-m .page-input-phone::-ms-input-placeholder,
+body .page3-m .page-input-phone::-ms-input-placeholder {
+  color: #dd8a2a;
+}
+
+html .page3-m .page-input-phone::placeholder,
+body .page3-m .page-input-phone::placeholder {
+  color: #dd8a2a;
+}
+
+html .page3-m .label-password,
+body .page3-m .label-password {
+  position: absolute;
+  top: 13.58rem;
+  left: 4.29rem;
+  background: url("/promote/lp211/images/password.png");
+  background-size: 100% 100%;
+  width: 0.15rem;
+  height: 0.15rem;
+  z-index: 100;
+}
+
+html .page3-m .page-input-password,
+body .page3-m .page-input-password {
+ position: absolute;
+    top: 13.46rem;
+    left: 4.09rem;
+    border-radius: 10px;
+    border: solid 2px #dd8a2a;
+    background: inherit;
+    z-index: 99;
+    width: 2.42rem;
+    height: 0.38rem;
+    font-size: .16rem;
+    padding-left: 0.47rem;
+    font-weight: normal;
+    font-stretch: normal;
+    outline: none;
+}
+
+html .page3-m .page-input-password::-webkit-input-placeholder,
+body .page3-m .page-input-password::-webkit-input-placeholder {
+  color: #dd8a2a;
+}
+
+html .page3-m .page-input-password:-ms-input-placeholder,
+body .page3-m .page-input-password:-ms-input-placeholder {
+  color: #dd8a2a;
+}
+
+html .page3-m .page-input-password::-ms-input-placeholder,
+body .page3-m .page-input-password::-ms-input-placeholder {
+  color: #dd8a2a;
+}
+
+html .page3-m .page-input-password::placeholder,
+body .page3-m .page-input-password::placeholder {
+  color: #dd8a2a;
+}
+
+html .page3-m .page3-m-submit,
+body .page3-m .page3-m-submit {
+  position: absolute;
+  top: 14.36rem;
+  left: 4.10rem;
+  width: 2.40rem;
+  height: 0.44rem;
+  background-color: #dd8a2a;
+  border-radius: 0.18rem;
+  border: none;
+  font-size: 0.24rem;
+  line-height: 0.42rem;
+  color: #fefefe;
+}
+
+html .page3-m .page3-m-bg-talk,
+body .page3-m .page3-m-bg-talk {
+  position: absolute;
+  top: 12.21rem;
+  left: 1.05rem;
+  background: #fff;
+  background-size: 100% 100%;
+  width: 2.7rem;
+  height: 2.75rem;
+  overflow: hidden;
+	border-radius:.08rem;
+}
+html .page3-m .page3-m-bg-talk::before,
+body .page3-m .page3-m-bg-talk::before {
+	content: '';
+    position: absolute;
+    top: 90%;
+    display: block;
+    background: #fff;
+    width: 100%;
+    height: 26px;
+}
+html .page3-m .page3-m-bg-talk::after,
+body .page3-m .page3-m-bg-talk::after {
+	content: '';
+    position: absolute;
+    top: 0%;
+    display: block;
+    background: #fff;
+    width: 100%;
+    height: 20px;
+}
+
+html .page3-m .page3-m-bg-talk .page3-m-bg-wrap,
+body .page3-m .page3-m-bg-talk .page3-m-bg-wrap {
+  padding-top: 0.33rem;
+  padding-left: 0.44rem;
+  padding-bottom: 0.29rem;
+  font-size: 0.16rem;
+  line-height: 0.24rem;
+	-webkit-animation: slidetop 7200s linear infinite;
+    animation: slidetop 7200s linear infinite;
+ 
+}
+html .page3-m .page3-m-bg-talk .page3-m-bg-wrap p{
+   white-space:nowrap;
+	line-height:0.24rem;
+	font-weight:normal;
+	
+}
+html .page3-m .page3-m-bg-talk .page3-m-bg-wrap span,
+body .page3-m .page3-m-bg-talk .page3-m-bg-wrap span {
+  font-family: "NotoSansSC-Regular";
+  color: #f64c4c;
+}
+
+html .page3-m .page3-m-bg-flower,
+body .page3-m .page3-m-bg-flower {
+  position: absolute;
+  top: 11.05rem;
+  left: 0rem;
+  background: url("/promote/lp211/images/背景＿花瓣.png");
+  background-size: 100% 100%;
+  width: 7.5rem;
+  height: 2.64rem;
+}
+
+html .page3-m .page3-m-fubg,
+body .page3-m .page3-m-fubg {
+  position: absolute;
+  top: 11.97rem;
+  left: 0.85rem;
+  background: url("/promote/lp211/images/福袋-領.png");
+  background-size: 100% 100%;
+  width: 0.64rem;
+  height: 0.75rem;
+  -webkit-animation: scaleInOut 1s infinite;
+  animation: scaleInOut 1s infinite;
+}
+
+html .page4-m .page4-m-bg-green,
+body .page4-m .page4-m-bg-green {
+  position: absolute;
+  top: 15.88rem;
+  left: 0;
+  width: 7.5rem;
+  height: 3.52rem;
+  z-index: -999;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#c9e7b1), to(#e5f3d8));
+  background-image: linear-gradient(360deg, #c9e7b1, #e5f3d8);
+}
+
+html .page4-m .page4-m-bg,
+body .page4-m .page4-m-bg {
+  position: absolute;
+  top: 15.95rem;
+  left: 0rem;
+  background: url("/promote/lp211/images/背景＿花瓣2.png");
+  background-size: 100% 100%;
+  width: 7.5rem;
+  height: 2.64rem;
+}
+
+html .page4-m .page4-m-title,
+body .page4-m .page4-m-title {
+  position: absolute;
+  top: 15.88rem;
+  left: 0.77rem;
+  background: url("/promote/lp211/images/主標-3.png");
+  background-size: 100% 100%;
+  width: 5.98rem;
+  height: 0.45rem;
+}
+
+html .page4-m .page4-m-l,
+body .page4-m .page4-m-l {
+  position: absolute;
+  top: 16.68rem;
+  left: 0.6rem;
+  background: url("/promote/lp211/images/小豬.png");
+  background-size: 100% 100%;
+  width: 1.64rem;
+  height: 1.63rem;
+}
+
+html .page4-m .page4-m-l-t,
+body .page4-m .page4-m-l-t {
+  position: absolute;
+  top: 18.58rem;
+  left: 0.91rem;
+  width: 1.01rem;
+  height: 0.23rem;
+  font-size: 0.24rem;
+}
+
+html .page4-m .page4-m-c,
+body .page4-m .page4-m-c {
+  position: absolute;
+  top: 16.68rem;
+  left: 2.95rem;
+  background: url("/promote/lp211/images/電話.png");
+  background-size: 100% 100%;
+  width: 1.64rem;
+  height: 1.63rem;
+}
+
+html .page4-m .page4-m-c-t,
+body .page4-m .page4-m-c-t {
+  position: absolute;
+  top: 18.58rem;
+  left: 3.26rem;
+  width: 1.03rem;
+  height: 0.23rem;
+  font-size: 0.24rem;
+}
+
+html .page4-m .page4-m-r,
+body .page4-m .page4-m-r {
+  position: absolute;
+  top: 16.68rem;
+  left: 5.28rem;
+  background: url("/promote/lp211/images/禮物.png");
+  background-size: 100% 100%;
+  width: 1.64rem;
+  height: 1.63rem;
+}
+
+html .page4-m .page4-m-r-t,
+body .page4-m .page4-m-r-t {
+  position: absolute;
+  top: 18.58rem;
+  left: 5.62rem;
+  width: 1.03rem;
+  height: 0.23rem;
+  font-size: 0.24rem;
+}
+.page5-m{
+    position: relative;
+}
+.page5-m span {
+	    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+	top: 23rem;
+	cursor: pointer;
+    z-index: 1000;
+	    display: inline-block;
+    width: .26rem;
+    height: .45rem;
+    background-size: 100%;
+}
+.page5-m span.arrow-left {
+    left: 1.47rem;
+    background-image: url(/promote/lp211/images/m-arrow-left.png);
+}
+.page5-m span.arrow-right {
+    left: initial;
+    right: 1.47rem;
+    background-image: url(/promote/lp211/images/m-arrow-right.png);
+}
+.page5-m .mySlides {
+  overflow: hidden;
+  position: absolute;
+	top:21.35rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+border-radius:8px;
+	background:#fff;
+}
+
+.page5-m .mySlides1 {
+  width: 2.26rem;
+	height:3.71rem;
+  left:0.20rem;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.page5-m .mySlides2 {
+   width: 3.61rem;
+	height:5.57rem;
+	top:20.42rem;
+	padding-top: .42rem;
+	padding-left: .25rem;
+  left:1.85rem;
+  z-index: 3;
+	box-shadow: 0px 0px .39rem 0px 
+		rgba(255, 166, 70, 0.65);
+	border: solid .04rem #dd8a2a;
+}
+
+.page5-m .mySlides3 {
+  width: 2.26rem;
+	height:3.71rem;
+  left:4.94rem;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+
+html .page5-m .page5-m-bg-green,
+body .page5-m .page5-m-bg-green {
+  position: absolute;
+  top: 19.4rem;
+  left: 0;
+  width: 7.5rem;
+  height: 10.03rem;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#aada85), to(#c4e5ab));
+  background-image: linear-gradient(360deg, #aada85, #c4e5ab);
+}
+
+html .page5-m .page5-m-bg,
+body .page5-m .page5-m-bg {
+  position: absolute;
+  top: 22.11rem;
+  left: 0rem;
+  background: url("/promote/lp211/images/bg_櫻花樹.png");
+  background-size: 100% 100%;
+  width: 7.5rem;
+  height: 4.94rem;
+}
+
+html .page5-m .page5-m-title,
+body .page5-m .page5-m-title {
+  position: absolute;
+  top: 19.4rem;
+  left: 0.77rem;
+  background: url("/promote/lp211/images/主標-4.png");
+  background-size: 100% 100%;
+  width: 5.95rem;
+  height: 0.54rem;
+}
+
+.fixed-bottom{
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  width: 7.5rem;
+  height: 1.28rem;
+  background: url("/jeffery_uat_m/images/move.gif") no-repeat top;
+  background-size: cover;
+}
+
+.animateshake-1 {
+  -webkit-animation: shakeing 1s 1s;
+          animation: shakeing 1s 1s;
+}
+
+.animateshake-2 {
+  -webkit-animation: shakeing 1s 2s;
+          animation: shakeing 1s 2s;
+}
+
+.animateshake-3 {
+  -webkit-animation: shakeing 1s 3s;
+          animation: shakeing 1s 3s;
+}
+
+.animateshake-4 {
+  -webkit-animation: shakeing 1s 4s;
+          animation: shakeing 1s 4s;
+}
+
+@media (max-width: 400px){
+	html body .page-input-password{
+		font-size:0.05rem;
+	}
+}
+@-webkit-keyframes slidetop {
+  0% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: -99999px;
+  }
+}
+
+@keyframes slidetop {
+  0% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: -99999px;
+  }
+}
+
+@-webkit-keyframes scaleInOut {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scaleInOut {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes falla{
+    0%{
+        opacity: 0.1;
+        transform: translate(0);
+    }
+    25%{
+        opacity: 1;
+        transform: translate(.3rem,.3rem);
+    }
+    50%{
+        opacity: 0.9;
+        transform: translate(.6rem,.6rem);
+    }
+    75%{
+        opacity: .7;
+        transform: translate(.9rem,.9rem);
+    }
+    100%{
+        opacity: 0;
+        transform: translate(1.2rem,1.2rem);
+    }
+}
+@keyframes fallb{
+    0%{
+        opacity: 0.1;
+        transform: translate(0);
+    }
+    25%{
+        opacity: 1;
+        transform: translate(.2rem,.3rem);
+    }
+    50%{
+        opacity: 0.9;
+        transform: translate(.4rem,.6rem);
+    }
+    75%{
+        opacity: .7;
+        transform: translate(.6rem,.9rem);
+    }
+    100%{
+        opacity: 0;
+        transform: translate(.8rem,1.2rem);
+    }
+}
+@-webkit-keyframes flow {
+  0% {
+    -webkit-transform: translate(0%) rotate(10deg);
+            transform: translate(0%) rotate(10deg);
+    opacity: 0;
+  }
+  20% {
+    -webkit-transform: translate(-15%, 3%);
+            transform: translate(-15%, 3%);
+    opacity: 0.8;
+  }
+  40% {
+    -webkit-transform: translate(0, 7%) rotate(-10deg);
+            transform: translate(0, 7%) rotate(-10deg);
+    opacity: 1;
+  }
+  60% {
+    -webkit-transform: translate(15%, 11%);
+            transform: translate(15%, 11%);
+    opacity: 0.8;
+  }
+  80% {
+    -webkit-transform: translate(0%, 15%) rotate(10deg);
+            transform: translate(0%, 15%) rotate(10deg);
+    opacity: 0.7;
+  }
+  100% {
+    -webkit-transform: translate(-15%, 20%);
+            transform: translate(-15%, 20%);
+    opacity: 0;
+  }
+}
+
+@keyframes flow {
+  0% {
+    -webkit-transform: translate(0%) rotate(10deg);
+            transform: translate(0%) rotate(10deg);
+    opacity: 0;
+  }
+  20% {
+    -webkit-transform: translate(-15%, 3%);
+            transform: translate(-15%, 3%);
+    opacity: 0.8;
+  }
+  40% {
+    -webkit-transform: translate(0, 7%) rotate(-10deg);
+            transform: translate(0, 7%) rotate(-10deg);
+    opacity: 1;
+  }
+  60% {
+    -webkit-transform: translate(15%, 11%);
+            transform: translate(15%, 11%);
+    opacity: 0.8;
+  }
+  80% {
+    -webkit-transform: translate(0%, 15%) rotate(10deg);
+            transform: translate(0%, 15%) rotate(10deg);
+    opacity: 0.7;
+  }
+  100% {
+    -webkit-transform: translate(-15%, 20%);
+            transform: translate(-15%, 20%);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes shakeing {
+  10%,
+  90% {
+    transform: rotate(-5deg);
+  }
+
+  20%,
+  80% {
+    transform: rotate(5deg);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: rotate(-5deg);
+  }
+
+  40%,
+  60% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes shakeing {
+  10%,
+  90% {
+    transform: rotate(-5deg);
+  }
+
+  20%,
+  80% {
+    transform: rotate(5deg);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: rotate(-5deg);
+  }
+
+  40%,
+  60% {
+    transform: rotate(5deg);
+  }
+}
+.animateBird {
+  -webkit-animation: animateBird 3s infinite linear,animateBirdRight 1s;
+          animation: animateBird 3s infinite linear,animateBirdRight 1s;
+}
+
+@-webkit-keyframes animateBird {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+  40% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  60% {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+  80% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes animateBird {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+  40% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  60% {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+  80% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+@-webkit-keyframes animateBirdRight {
+  0% {
+    -webkit-transform: translateX(300px);
+            transform: translateX(300px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes animateBirdRight {
+  0% {
+    -webkit-transform: translateX(300px);
+            transform: translateX(300px);
+  }
+  
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@media (min-width:750px){
+  .m-site{
+    display:none;
+    visibility: hidden;
+    width:0;
+    height: 0;
+  }
+}
+
+
+
+/*# sourceMappingURL=all.css.map */
