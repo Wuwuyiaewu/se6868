@@ -31,7 +31,7 @@ html {
   margin: auto;
   max-width: 1920px;
   height: 1132px;
-  background: url(..images/page1_bg.png) no-repeat bottom;
+  background: url(../images/page1_bg.png) no-repeat bottom;
   background-size: cover;
 }
 
@@ -75,7 +75,7 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url("..images/p1-modal-o.png") no-repeat top;
+  background: url("../images/p1-modal-o.png") no-repeat top;
   background-size: contain;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -114,7 +114,7 @@ html {
   height: 100%;
   left: 0;
   top: 0%;
-  background: url(..images/s1-sakura-petal.png);
+  background: url(../images/s1-sakura-petal.png);
   background-size: 100% 100%;
   z-index: 199;
 }
@@ -138,7 +138,7 @@ html {
   height: 100%;
   left: 0;
   top: 0%;
-  background: url(..images/s1-sakura-petal.png);
+  background: url(../images/s1-sakura-petal.png);
   background-size: 100% 100%;
   z-index: 100;
 }
@@ -153,7 +153,7 @@ html {
   height: 529px;
   display: block;
   margin: auto;
-  background: url(..images/s1-Alltitle.png) no-repeat bottom;
+  background: url(../images/s1-Alltitle.png) no-repeat bottom;
   background-size: cover;
 }
 
@@ -183,7 +183,7 @@ html {
   height: 154px;
   left: 35%;
   top: 20%;
-  background: url(..images/s1-bag.png);
+  background: url(../images/s1-bag.png);
   background-size: 100% 100%;
   z-index: 99;
 }
@@ -195,7 +195,7 @@ html {
   height: 100%;
   left: 10%;
   top: 0;
-  background: url(..images/s1-wave.png);
+  background: url(../images/s1-wave.png);
   background-size: 100% 100%;
   -webkit-animation: scaleLightPage1 2s infinite linear;
   animation: scaleLightPage1 2s infinite linear;
@@ -299,7 +299,7 @@ html {
   height: 100%;
   left: 0;
   top: 0;
-  background: url(..images/s1-sakura-l.png);
+  background: url(../images/s1-sakura-l.png);
   background-size: 100% 100%;
 }
 
@@ -320,7 +320,7 @@ html {
   height: 100%;
   left: 0;
   top: 0;
-  background: url(..images/s1-sakura-r.png);
+  background: url(../images/s1-sakura-r.png);
   background-size: 100% 100%;
   overflow: hidden;
 }
@@ -330,7 +330,7 @@ html {
   margin: auto;
   max-width: 1920px;
   height: 848px;
-  background: url(..images/page2_bg.png) no-repeat top;
+  background: url(../images/page2_bg.png) no-repeat top;
   background-size: cover;
   padding-top: 16px;
 }
@@ -345,7 +345,7 @@ html {
   margin: 0 auto;
   width: 768px;
   height: 78px;
-  background: url(..images/page2-smalltitle.png) no-repeat center;
+  background: url(../images/page2-smalltitle.png) no-repeat center;
   background-size: contain;
 }
 
@@ -389,7 +389,7 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url("..images/p2-modal-l.png") no-repeat top;
+  background: url("../images/p2-modal-l.png") no-repeat top;
   background-size: contain;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -435,7 +435,7 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url("..images/p2-modal-u.png") no-repeat top;
+  background: url("../images/p2-modal-u.png") no-repeat top;
   background-size: contain;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -481,7 +481,7 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url("..images/p2-modal-b.png") no-repeat top;
+  background: url("../images/p2-modal-b.png") no-repeat top;
   background-size: contain;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -527,7 +527,7 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url("..images/p2-modal-r.png") no-repeat top;
+  background: url("../images/p2-modal-r.png") no-repeat top;
   background-size: contain;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -573,7 +573,7 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url("..images/p2-modal-sp.png") no-repeat top;
+  background: url("../images/p2-modal-sp.png") no-repeat top;
   background-size: contain;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -635,7 +635,7 @@ html {
   height: 100%;
   left: 0;
   top: 0%;
-  background: url(..images/s2-bag-l.png);
+  background: url(../images/s2-bag-l.png);
   background-size: 100% 100%;
   z-index: 99;
   pointer-events: none;
@@ -673,7 +673,7 @@ html {
   height: 100%;
   left: 0;
   top: 0%;
-  background: url(..images/s2-bag-u.png);
+  background: url(../images/s2-bag-u.png);
   background-size: 100% 100%;
   z-index: 99;
   pointer-events: none;
@@ -711,7 +711,7 @@ html {
   height: 100%;
   left: 0;
   top: 0%;
-  background: url(..images/s2-bag-b.png);
+  background: url(../images/s2-bag-b.png);
   background-size: 100% 100%;
   z-index: 99;
   pointer-events: none;
@@ -749,7 +749,7 @@ html {
   height: 100%;
   left: 0;
   top: 0%;
-  background: url(..images/s2-bag-r.png);
+  background: url(../images/s2-bag-r.png);
   background-size: 100% 100%;
   z-index: 99;
   pointer-events: none;
@@ -782,7 +782,7 @@ html {
   height: 100%;
   left: 0;
   top: 0%;
-  background: url(..images/s2-bird.png);
+  background: url(../images/s2-bird.png);
   background-size: 100% 100%;
   z-index: 99;
   pointer-events: none;
@@ -802,7 +802,7 @@ html {
   margin: auto;
   max-width: 1920px;
   height: 848px;
-  background: url(..images/page3_linear.png) no-repeat top;
+  background: url(../images/page3_linear.png) no-repeat top;
   background-size: cover;
   padding-top: 205px;
 }
@@ -815,7 +815,7 @@ html {
   left: 50%;
   width: 1420px;
   height: 670px;
-  background: url(..images/page3_bg.png) no-repeat center;
+  background: url(../images/page3_bg.png) no-repeat center;
   background-size: cover;
 }
 
@@ -888,7 +888,7 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url(..images/s3-bag.png) no-repeat top;
+  background: url(../images/s3-bag.png) no-repeat top;
   background-size: cover;
   z-index: 199;
 }
@@ -1095,7 +1095,7 @@ html {
 }
 
 .page3 .page3-wrap .form-wrap form.flex-position label .icon1 {
-  background: url("..images/s3-phone.png");
+  background: url("../images/s3-phone.png");
   background-repeat: no-repeat;
   background-size: 23px 34px;
   width: 23px;
@@ -1106,7 +1106,7 @@ html {
 }
 
 .page3 .page3-wrap .form-wrap form.flex-position label .icon2 {
-  background: url("..images/s3-password.png");
+  background: url("../images/s3-password.png");
   background-repeat: no-repeat;
   background-size: 28px 28px;
   width: 28px;
@@ -1121,7 +1121,7 @@ html {
   margin: auto;
   max-width: 1920px;
   height: 772px;
-  background: url(..images/page4_bg_linear.png) no-repeat top;
+  background: url(../images/page4_bg_linear.png) no-repeat top;
   background-size: cover;
   padding-top: 197px;
 }
@@ -1211,7 +1211,7 @@ html {
   margin: auto;
   max-width: 1920px;
   height: 1170px;
-  background: url(..images/page5_bg_linear.png) no-repeat top;
+  background: url(../images/page5_bg_linear.png) no-repeat top;
   background-size: cover;
 }
 
@@ -1265,7 +1265,7 @@ html {
 }
 
 .page5 span.arrow-left {
-  background-image: url(..images/arrow-left.png);
+  background-image: url(../images/arrow-left.png);
   left: 25%;
   transform: translateY(-50%);
   top: 50%;
@@ -1274,7 +1274,7 @@ html {
 }
 
 .page5 span.arrow-left:hover {
-  background-image: url(..images/arrow-left.png);
+  background-image: url(../images/arrow-left.png);
   left: 25%;
   transform: translateY(-50%);
   top: 50.111%;
@@ -1283,7 +1283,7 @@ html {
 }
 
 .page5 span.arrow-right {
-  background-image: url(..images/arrow-right.png);
+  background-image: url(../images/arrow-right.png);
   right: 25%;
   transform: translateY(-50%);
   top: 50%;
@@ -1292,7 +1292,7 @@ html {
 }
 
 .page5 span.arrow-right:hover {
-  background-image: url(..images/arrow-right.png);
+  background-image: url(../images/arrow-right.png);
   right: 25%;
   transform: translateY(-50%);
   top: 50.111%;
