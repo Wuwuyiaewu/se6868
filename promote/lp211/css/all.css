@@ -36,12 +36,12 @@ html{
     left: 0;
     width: 2.5rem;
     height: 1.3rem;
-    background: url(promote/lp211/images/s1-sakura-petal_m.png) no-repeat center;
+    background: url(..images/s1-sakura-petal_m.png) no-repeat center;
     background-size: contain;
 }
 .page1-m .s1-sakura-petal2{
     position: absolute;
-    background: url(promote/lp211/images/s1-sakura-petal_m.png) no-repeat center;
+    background: url(..images/s1-sakura-petal_m.png) no-repeat center;
     background-size: contain;
     left: initial;
     width: 2rem;
@@ -55,7 +55,7 @@ body .page1-m .page1-m-bg {
   position: absolute;
   top: 0;
   left: 0;
-  background: url("promote/lp211/images/bg.png");
+  background: url("..images/bg.png");
   background-size: 100% 100%;
   width: 7.5rem;
   height: 4.17rem;
@@ -66,7 +66,7 @@ body .page1-m .page1-m-frame {
   position: absolute;
   top: 0.86rem;
   left: 0.43rem;
-  background: url("promote/lp211/images/bg_框.png");
+  background: url("..images/bg_m.png");
   background-size: 100% 100%;
   width: 6.66rem;
   height: 2.48rem;
@@ -77,7 +77,7 @@ body .page1-m .page1-m-fall {
   position: absolute;
   top: 1.09rem;
   left: 1.67rem;
-  background: url("promote/lp211/images/花瓣.png");
+  background: url("..images/flower_m.png");
   background-size: 100% 100%;
   width: 1.01rem;
   height: 0.68rem;
@@ -88,7 +88,7 @@ body .page1-m .page1-m-flow-l {
   position: absolute;
   top: 0.25rem;
   left: 0;
-  background: url("promote/lp211/images/櫻花枝L.png");
+  background: url("..images/sakula_L_m.png");
   background-size: 100% 100%;
   width: 2.75rem;
   height: 1.62rem;
@@ -99,7 +99,7 @@ body .page1-m .page1-m-flow-r {
   position: absolute;
   top: 2.21rem;
   left: 5.25rem;
-  background: url("promote/lp211/images/櫻花枝R.png");
+  background: url("..images/sakula_R_m.png");
   background-size: 100% 100%;
   width: 2.25rem;
   height: 1.71rem;
@@ -110,7 +110,7 @@ body .page1-m .page1-m-title {
   position: absolute;
   top: 1.31rem;
   left: 2.37rem;
-  background: url("promote/lp211/images/群組 3.png");
+  background: url("..images/group.png");
   background-size: 100% 100%;
   width: 2.71rem;
   height: 0.42rem;
@@ -121,7 +121,7 @@ body .page1-m .page1-m-fate1 {
   position: absolute;
   top: 2rem;
   left: 1.65rem;
-  background: url("promote/lp211/images/開運.png");
+  background: url("..images/getluck_m.png");
   background-size: 100% 100%;
   width: 1.29rem;
   height: 0.62rem;
@@ -132,7 +132,7 @@ body .page1-m .page1-m-2000 {
   position: absolute;
   top: 1.98rem;
   left: 3.81rem;
-  background: url("promote/lp211/images/$2000.png");
+  background: url("..images/2000_m.png");
   background-size: 100% 100%;
   width: 2.3rem;
   height: 0.64rem;
@@ -143,7 +143,7 @@ body .page1-m .page1-m-fubag {
   position: absolute;
   top: 1.94rem;
   left: 3.08rem;
-  background: url("promote/lp211/images/福袋.png");
+  background: url("..images/fubag_m.png");
   background-size: 100% 100%;
   width: 0.59rem;
   height: 0.74rem;
@@ -154,7 +154,7 @@ body .page2-m .page-bg-t {
   position: absolute;
   top: 4.87rem;
   left: 0rem;
-  background: url("promote/lp211/images/bg_樹.png");
+  background: url("..images/bg_tree_m.png");
   background-size: 100% 100%;
   width: 7.5rem;
   height: 5.49rem;
@@ -185,145 +185,6 @@ body .page1-m .page1-m-fubag-light-2 {
   height: 0.8rem;
   -webkit-animation: scaleInOut 3s infinite;
           animation: scaleInOut 3s infinite;
-}
-html .page1-m .page1-m-fedala,
-body .page1-m .page1-m-fedala {
-  position: absolute;
-  z-index: 99;
-  top: 1.8rem;
-  left: 1.2rem;
-  background: url("promote/lp211/images/花瓣a.png");
-  background-size: 100% 100%;
-  width: .1rem;
-  height: .08rem;
-  -webkit-animation: falla 4s infinite linear;
-          animation: falla 4s infinite linear;
-}
-
-html .page1-m .page1-m-fedalb,
-body .page1-m .page1-m-fedalb {
-  position: absolute;
-  z-index: 99;
-  top: 1.7rem;
-  left: 1.5rem;
-  background: url("promote/lp211/images/花瓣b.png");
-  background-size: 100% 100%;
-  width: .1rem;
-  height: .07rem;
-  -webkit-animation: falla 3s infinite linear;
-          animation: falla 3s infinite linear;
-}
-
-html .page1-m .page1-m-fedalc,
-body .page1-m .page1-m-fedalc {
-  position: absolute;
-  z-index: 99;
-  top: 1.6rem;
-  left: 1rem;
-  background: url("promote/lp211/images/花瓣c.png");
-  background-size: 100% 100%;
-  width: .1rem;
-  height: .07rem;
-  -webkit-animation: fallb 3.5s infinite linear;
-          animation: fallb 3.5s infinite linear;
-}
-
-html .page1-m .page1-m-fedald,
-body .page1-m .page1-m-fedald {
-  position: absolute;
-  z-index: 99;
-  top: 0.8rem;
-  left: 0.3rem;
-  background: url("promote/lp211/images/花瓣d.png");
-  background-size: 100% 100%;
-  width: .1rem;
-  height: .07rem;
-  -webkit-animation: falla 3s infinite linear;
-          animation: falla 3s infinite linear;
-}
-
-html .page1-m .page1-m-fedale,
-body .page1-m .page1-m-fedale {
-  position: absolute;
-  z-index: 99;
-  top: 1.3rem;
-  left: 0.2rem;
-  background: url("promote/lp211/images/花瓣e.png");
-  background-size: 100% 100%;
-  width: .1rem;
-  height: .07rem;
-  -webkit-animation: falla 2.5s infinite linear;
-          animation: falla 2.5s infinite linear;
-}
-
-html .page1-m .page1-m-fedalf,
-body .page1-m .page1-m-fedalf {
-  position: absolute;
-  z-index: 99;
-  top: 1.7rem;
-  left: 1.5rem;
-  background: url("promote/lp211/images/花瓣f.png");
-  background-size: 100% 100%;
-  width: .1rem;
-  height: .07rem;
-  -webkit-animation: falla 3s infinite linear;
-          animation: falla 3s infinite linear;
-}
-
-html .page1-m .page1-m-fedalg,
-body .page1-m .page1-m-fedalg {
-  position: absolute;
-  z-index: 99;
-  top: 1.7rem;
-  left: 0.2rem;
-  background: url("promote/lp211/images/花瓣g.png");
-  background-size: 100% 100%;
-  width: .1rem;
-  height: .07rem;
-  -webkit-animation: falla 3s infinite linear;
-          animation: falla 3s infinite linear;
-}
-
-html .page1-m .page1-m-fedalh,
-body .page1-m .page1-m-fedalh {
-  position: absolute;
-  z-index: 99;
-  top: 1.9rem;
-  left: 0.6rem;
-  background: url("promote/lp211/images/花瓣c.png");
-  background-size: 100% 100%;
-  width: .1rem;
-  height: .07rem;
-  -webkit-animation: falla 3s infinite linear;
-          animation: falla 3s infinite linear;
-}
-
-html .page1-m .page1-m-fedali,
-body .page1-m .page1-m-fedali {
-  position: absolute;
-  z-index: 99;
-  top: 2.5rem;
-  left: 0.7rem;
-  background: url("promote/lp211/images/花瓣b.png");
-  background-size: 100% 100%;
-  width: .1rem;
-  height: .07rem;
-  -webkit-animation: fallb 4s infinite linear;
-          animation: fallb 4s infinite linear;
-}
-
-html .page1-m .page1-m-fedalj,
-body .page1-m .page1-m-fedalj {
-  position: absolute;
-  z-index: 99;
-  top: 1.2rem;
-  left: 0.1rem;
-  background: url("promote/lp211/images/花瓣a.png");
-  background-size: 100% 100%;
-  width: .1rem;
-  height: .07rem;
-  -webkit-animation: falla 1s infinite linear;
-          animation: falla 1s infinite linear;
 }
 
 html .page1-m .page1-m-fedal-wrap,
@@ -366,22 +227,22 @@ body .page1-m .page1-m-fedal-wrap {
   max-width: 1920px;
 }
 .page2-m .modal .btn_mainBtn0{
-  background-image: url("promote/lp211/images/0-edit.png?v=111");
+  background-image: url("..images/0-edit.png?v=111");
 }
 .page2-m .modal .btn_mainBtn1{
-  background-image: url("promote/lp211/images/1-edit.png?v=111");
+  background-image: url("..images/1-edit.png?v=111");
 }
 .page2-m .modal .btn_mainBtn2{
-  background-image: url("promote/lp211/images/2-edit.png?v=111");
+  background-image: url("..images/2-edit.png?v=111");
 }
 .page2-m .modal .btn_mainBtn3{
-  background-image: url("promote/lp211/images/3-edit.png?v=111");
+  background-image: url("..images/3-edit.png?v=111");
 }
 .page2-m .modal .btn_mainBtn4{
-  background-image: url("promote/lp211/images/4-edit.png?v=111");
+  background-image: url("..images/4-edit.png?v=111");
 }
 .page2-m .modal .btn_mainBtn5{
-  background-image: url("promote/lp211/images/5-edit.png?v=111");
+  background-image: url("..images/5-edit.png?v=111");
 }
 .page2-m .modal .btn_mainBtn0,.page2-m .modal .btn_mainBtn1,.page2-m .modal .btn_mainBtn2,.page2-m .modal .btn_mainBtn3,.page2-m .modal .btn_mainBtn4,.page2-m .modal .btn_mainBtn5{
     position: absolute;
@@ -406,7 +267,7 @@ body .page1-m .page1-m-fedal-wrap {
     height: .72rem;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    background: url("promote/lp211/images/time.png") no-repeat center;
+    background: url("..images/time.png") no-repeat center;
     background-size: contain;
     margin-left: 1.68rem;
     margin-top: -2.48rem;
@@ -424,7 +285,7 @@ body .page2-m .page-t {
   position: absolute;
   top: 6.07rem;
   left: 0.83rem;
-  background: url("promote/lp211/images/主樹.png");
+  background: url("..images/main_tree_m.png");
   background-size: 100% 100%;
   width: 5.75rem;
   height: 4.54rem;
@@ -435,7 +296,7 @@ body .page2-m .page2-m-title {
   position: absolute;
   top: 4.38rem;
   left: 0.83rem;
-  background: url("promote/lp211/images/主標.png");
+  background: url("..images/main_title_m.png");
   background-size: 100% 100%;
   width: 5.86rem;
   height: 0.5rem;
@@ -473,7 +334,7 @@ body .page2-m .page2-m-fubg {
   position: absolute;
   top: 5.02rem;
   left: 3.69rem;
-  background: url("promote/lp211/images/福袋-福.png");
+  background: url("..images/fubag_page2_m.png");
   background-size: 100% 100%;
   width: 0.36rem;
   height: 0.47rem;
@@ -484,7 +345,7 @@ body .page2-m .page2-m-bird {
   position: absolute;
   top: 5.55rem;
   left: 5.79rem;
-  background: url("promote/lp211/images/鳥.png");
+  background: url("..images/bird_page2_m.png");
   background-size: 100% 100%;
   width: 1.11rem;
   height: 1.85rem;
@@ -495,7 +356,7 @@ body .page2-m .page2-m-touch-1 {
   position: absolute;
   top: 7.08rem;
   left: 1.34rem;
-  background: url("promote/lp211/images/杏花.png");
+  background: url("..images/florwe_l_m.png");
   background-size: 100% 100%;
   width: 1.78rem;
   height: 1.76rem;
@@ -506,7 +367,7 @@ body .page2-m .page2-m-touch-2 {
   position: absolute;
   top: 5.94rem;
   left: 3.02rem;
-  background: url("promote/lp211/images/牡丹花.png");
+  background: url("..images/florwe_u_m.png");
   background-size: 100% 100%;
   width: 1.78rem;
   height: 1.76rem;
@@ -517,7 +378,7 @@ body .page2-m .page2-m-touch-3 {
   position: absolute;
   top: 8.06rem;
   left: 3.1rem;
-  background: url("promote/lp211/images/櫻花.png");
+  background: url("..images/florwe_b_m.png");
   background-size: 100% 100%;
   width: 1.78rem;
   height: 1.77rem;
@@ -528,7 +389,7 @@ body .page2-m .page2-m-touch-4-wrap {
   position: absolute;
   top: 7.04rem;
   left: 4.66rem;
-  background: url("promote/lp211/images/桃花.png");
+  background: url("..images/florwe_r_m.png");
   background-size: 100% 100%;
   width: 1.78rem;
   height: 1.76rem;
@@ -559,7 +420,7 @@ body .page3-m .page3-m-title {
   position: absolute;
   top: 11.23rem;
   left: 0.76rem;
-  background: url("promote/lp211/images/主標-2.png");
+  background: url("..images/main_page3_title.png");
   background-size: 100% 100%;
   width: 5.98rem;
   height: 0.46rem;
@@ -570,7 +431,7 @@ body .page3-m .page3-m-bg {
   position: absolute;
   top: 11.88rem;
   left: 0.5rem;
-  background: url("promote/lp211/images/bg＿框talk.png");
+  background: url("..images/bg_page3_frame.png");
   background-size: 100% 100%;
   width: 6.4rem;
   height: 3.51rem;
@@ -593,7 +454,7 @@ body .page3-m .label-phone {
   position: absolute;
   top: 12.79rem;
   left: 4.30rem;
-  background: url("promote/lp211/images/phone.png");
+  background: url("..images/phone.png");
   background-size: 100% 100%;
   width: 0.13rem;
   height: 0.19rem;
@@ -643,7 +504,7 @@ body .page3-m .label-password {
   position: absolute;
   top: 13.58rem;
   left: 4.29rem;
-  background: url("promote/lp211/images/password.png");
+  background: url("..images/password.png");
   background-size: 100% 100%;
   width: 0.15rem;
   height: 0.15rem;
@@ -764,7 +625,7 @@ body .page3-m .page3-m-bg-flower {
   position: absolute;
   top: 11.05rem;
   left: 0rem;
-  background: url("promote/lp211/images/背景＿花瓣.png");
+  background: url("..images/page3_bg_flower.png");
   background-size: 100% 100%;
   width: 7.5rem;
   height: 2.64rem;
@@ -775,7 +636,7 @@ body .page3-m .page3-m-fubg {
   position: absolute;
   top: 11.97rem;
   left: 0.85rem;
-  background: url("promote/lp211/images/福袋-領.png");
+  background: url("..images/fubag_page3_m.png");
   background-size: 100% 100%;
   width: 0.64rem;
   height: 0.75rem;
@@ -800,7 +661,7 @@ body .page4-m .page4-m-bg {
   position: absolute;
   top: 15.95rem;
   left: 0rem;
-  background: url("promote/lp211/images/背景＿花瓣2.png");
+  background: url("..images/page3_bg_flower.png");
   background-size: 100% 100%;
   width: 7.5rem;
   height: 2.64rem;
@@ -811,7 +672,7 @@ body .page4-m .page4-m-title {
   position: absolute;
   top: 15.88rem;
   left: 0.77rem;
-  background: url("promote/lp211/images/主標-3.png");
+  background: url("..images/main_page4_title.png");
   background-size: 100% 100%;
   width: 5.98rem;
   height: 0.45rem;
@@ -822,7 +683,7 @@ body .page4-m .page4-m-l {
   position: absolute;
   top: 16.68rem;
   left: 0.6rem;
-  background: url("promote/lp211/images/小豬.png");
+  background: url("..images/pig_page4_m.png");
   background-size: 100% 100%;
   width: 1.64rem;
   height: 1.63rem;
@@ -843,7 +704,7 @@ body .page4-m .page4-m-c {
   position: absolute;
   top: 16.68rem;
   left: 2.95rem;
-  background: url("promote/lp211/images/電話.png");
+  background: url("..images/phone_page4_c.png");
   background-size: 100% 100%;
   width: 1.64rem;
   height: 1.63rem;
@@ -864,7 +725,7 @@ body .page4-m .page4-m-r {
   position: absolute;
   top: 16.68rem;
   left: 5.28rem;
-  background: url("promote/lp211/images/禮物.png");
+  background: url("..images/phone_page4_r.png");
   background-size: 100% 100%;
   width: 1.64rem;
   height: 1.63rem;
@@ -896,12 +757,12 @@ body .page4-m .page4-m-r-t {
 }
 .page5-m span.arrow-left {
     left: 1.47rem;
-    background-image: url(promote/lp211/images/m-arrow-left.png);
+    background-image: url(..images/m-arrow-left.png);
 }
 .page5-m span.arrow-right {
     left: initial;
     right: 1.47rem;
-    background-image: url(promote/lp211/images/m-arrow-right.png);
+    background-image: url(..images/m-arrow-right.png);
 }
 .page5-m .mySlides {
   overflow: hidden;
@@ -959,7 +820,7 @@ body .page5-m .page5-m-bg {
   position: absolute;
   top: 22.11rem;
   left: 0rem;
-  background: url("promote/lp211/images/bg_櫻花樹.png");
+  background: url("..images/bg_page5_m.png");
   background-size: 100% 100%;
   width: 7.5rem;
   height: 4.94rem;
@@ -970,7 +831,7 @@ body .page5-m .page5-m-title {
   position: absolute;
   top: 19.4rem;
   left: 0.77rem;
-  background: url("promote/lp211/images/主標-4.png");
+  background: url("..images/主標-4.png");
   background-size: 100% 100%;
   width: 5.95rem;
   height: 0.54rem;
