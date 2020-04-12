@@ -6,7 +6,7 @@
     <title>春至百花齐放 领开运福袋$2000－智选天下</title>
 	  <link href="promote/lp211/css/all.css" rel="stylesheet">
 	  <link href="promote/lp211/css/animate.min.css" rel="stylesheet">
-	  <script async="" src="promote/lp211/js/sensorsdata.min.js"></script><script src="promote/lp211/swiper.min.js"></script>
+	  <script async="" src="promote/lp211/js/sensorsdata.min.js"></script>
     <script src="promote/lp211/js/jquery.js"></script>
 	  <script src="promote/lp211/js/wow.min.js"></script>
 	  
@@ -1837,6 +1837,8 @@
 		  <img src="promote/lp211/images/r-boy.png" alt="" style="max-width:100%;">
       </div>
     </div>
+
+
 <!--lp底部-->
 <!-- <div class="bottoms">
     <div class="bottom ">
@@ -1863,8 +1865,10 @@
 
   </div>
 </div> -->
- <script src="promote/lp211/jquery.min.js"></script>
- <script src="promote/lp211/back_top.js"></script>
+ <!-- <script src="promote/lp211/jquery.min.js"></script>
+ <script src="promote/lp211/back_top.js"></script> -->
+
+
  <script>
  $(function(){
     $(".close").click(function(){
@@ -1974,92 +1978,9 @@ if($(window).width()<640){
 		});
 		
 		
-    let imgNub = document.getElementsByClassName("mySlides").length; //轮播图片数量
-console.log(imgNub);
-show();
-
-function show() {
-  let img = document.getElementsByClassName("mySlides");
-  console.log(img);
-  //获取轮播图片数量
-  for (i = 0; i < imgNub; i++) {
-    img[i].setAttribute("id", i);
-  }
-	
-}
-var sliderTimes = null;
-function sliderRight(){
-   let i = 3;
-  $(`.mySlides3`)
-    .removeClass(`mySlides3`)
-    .addClass(`mySlides4`);
-  $(`.mySlides2`)
-    .removeClass(`mySlides2`)
-    .addClass(`mySlides3`);
-  $(`.mySlides1`)
-    .removeClass(`mySlides1`)
-    .addClass(`mySlides2`);
-  $(`.mySlides4`)
-    .removeClass(`mySlides4`)
-    .addClass(`mySlides1`);
-}
-function sliderLeft(){
-  let i = 3;
-  $(`.mySlides3`)
-    .removeClass(`mySlides3`)
-    .addClass(`mySlides4`);
-  $(`.mySlides2`)
-    .removeClass(`mySlides2`)
-    .addClass(`mySlides3`);
-  $(`.mySlides1`)
-    .removeClass(`mySlides1`)
-    .addClass(`mySlides2`);
-  $(`.mySlides4`)
-    .removeClass(`mySlides4`)
-    .addClass(`mySlides1`);
-}
-function loopSlider(){
-     if(sliderTimes){
-	     window.clearInterval(sliderTimes)
-	 }
-	sliderRight()
-	sliderTimes = window.setInterval(() => {
-	  sliderRight()
-	}, 5000);
-}
-loopSlider()
-$("#arrow-right").click(function(){
-   loopSlider()
-})
-$("#arrow-left").click(function(){
-     if(sliderTimes){
-	     window.clearInterval(sliderTimes)
-	 }
-	sliderLeft()
-   loopSlider()
-})
-// setInterval
-		/*
-window.setInterval(() => {
-  let i = 3;
-  $(`.mySlides3`)
-    .removeClass(`mySlides3`)
-    .addClass(`mySlides4`);
-  $(`.mySlides2`)
-    .removeClass(`mySlides2`)
-    .addClass(`mySlides3`);
-  $(`.mySlides1`)
-    .removeClass(`mySlides1`)
-    .addClass(`mySlides2`);
-  $(`.mySlides4`)
-    .removeClass(`mySlides4`)
-    .addClass(`mySlides1`);
-}, 5000);
-*/
 		
 		 // modal
     // Get the modal
-      let bodyNode = document.querySelector('body');
 
 		
     var modal = document.getElementById("myModal");
@@ -4387,13 +4308,11 @@ bag4.classList.remove("shake");
       <div class="slide-wrap">
         <span
           class="arrow-left"
-          id="arrow-left"
-          onclick="plusSlides(-1)"
+          id="arrow-left-pc"
         ></span>
         <span
           class="arrow-right"
-          id="arrow-right"
-          onclick="plusSlides(1)"
+          id="arrow-right-pc"
         ></span>
         <div class="mySlides fade mySlides3">
           <img src="promote/lp211/images/s5-card1.png" alt="" class="w-100" />
@@ -4997,22 +4916,10 @@ bag4.classList.remove("shake");
           $("html").css("overflow", "auto");
         }
       }
-      //
-      //
-      // 失敗的福袋動畫
-      // window.addEventListener("scroll", getTop);
-      // function getTop() {
-      //   let top = window.scrollY;
-      //   let fubag = s2_U.clientHeight;
-      //   if (top > (fubag+300)) {
-      //     s2_L.classList.add("shake");
-      //     s2_U.classList.add("shake");
-      //     s2_B.classList.add("shake");
-      //     s2_R.classList.add("shake");
-      //   }
-      //   console.log(top,fubag+300)
-      //   setTimeout(removeClassShake, 1000);
-      // }
+      
+
+      // 監聽捲動動畫
+
       window.addEventListener("scroll", fadeIn);
       function fadeIn() {
         let top = window.scrollY;
@@ -5042,6 +4949,10 @@ bag4.classList.remove("shake");
         s2_B_position.classList.remove("rotate-2s");
         s2_R_position.classList.remove("rotate-3s");
       }
+
+      // 輪播箭頭動畫
+      
+
     </script>
 
 

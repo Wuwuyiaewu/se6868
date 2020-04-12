@@ -133,7 +133,11 @@ function loopSlider(){
 loopSlider()
 $("#arrow-right").click(function(){
    loopSlider()
+
 })
+$("#arrow-right-pc").click(function () {
+  loopSlider();
+});
 $("#arrow-left").click(function(){
      if(sliderTimes){
 	     window.clearInterval(sliderTimes)
@@ -141,3 +145,10 @@ $("#arrow-left").click(function(){
 	sliderLeft()
    loopSlider()
 })
+$("#arrow-left-pc").click(function () {
+  if (sliderTimes) {
+    window.clearInterval(sliderTimes);
+  }
+  sliderLeft();
+  loopSlider();
+});
