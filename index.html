@@ -1955,7 +1955,6 @@ if($(window).width()<640){
                 return false;
             }
             var passwordRaw=$.trim($("#password").val());
-						console.log(passwordRaw,mobilePhone_number)
 
             if ($.trim(passwordRaw) == "" || passwordRaw.length <6 || passwordRaw.length >16 || isEnglishAndChinese(passwordRaw)){
                 alert("请输入6到16位之间的数字跟英文组合密码");
@@ -2061,7 +2060,6 @@ if($(window).width()<640){
 
       bag4.classList.add("animateshake-4");     bag4.classList.add("animated");
 
-      console.log('add')
     }
     function delTimer() {
       let bag1 = document.querySelector(".bag1");
@@ -2077,7 +2075,6 @@ if($(window).width()<640){
 		bag3.classList.remove("shake");
             bag4.classList.remove("animateshake-4");
 bag4.classList.remove("shake");
-      console.log('del')
     }
     </script>
     <script type="text/javascript">

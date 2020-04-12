@@ -53,12 +53,10 @@ function showSlides() {
 }
 // 輪播數量
 let imgNub = document.getElementsByClassName("mySlides").length; //轮播图片数量
-console.log(imgNub);
 // show();
 
 function show() {
   let img = document.getElementsByClassName("mySlides");
-  console.log(img);
   //获取轮播图片数量
   for (i = 0; i < imgNub; i++) {
     img[i].setAttribute("id", i);
